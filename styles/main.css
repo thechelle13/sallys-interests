@@ -1,0 +1,12 @@
+.interest {
+    flex-basis: 16%;
+    border: 1px dotted crimson;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center; /* Center align the text in the boxes */
+}
+.bio__interests {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Evenly space the child elements */
+}
